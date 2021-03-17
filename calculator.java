@@ -1,14 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-class calculator{
-	public static void main(String[] args) {
-		Frame obj = new Frame();
-		obj.setSize(210,350);
-		obj.setLayout(null);
-		obj.setVisible(true);
-	}
-}
 class Frame extends JFrame implements ActionListener{
 	JButton b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12,b13,b14,b15;
 	//10-dot 11-add 12-sub 13-mul 14-divide 15-equal
@@ -196,4 +188,12 @@ class Frame extends JFrame implements ActionListener{
 		}
 
 	} // interface methods ends here
+}
+class calculator{
+	public static void main(String[] args) {
+		Frame obj = new Frame();
+		obj.setSize(210,350);
+		obj.setLayout(null);
+		obj.setVisible(true);
+	}
 }
